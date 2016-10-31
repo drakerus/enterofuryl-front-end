@@ -1,0 +1,234 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" /> 
+		<title></title>
+		<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+        <!--[if IE 8]><link href="styles/styles_if_ie_8.css" rel="stylesheet" type="text/css"><![endif]-->
+        <!--[if IE 9]><link href="styles/styles_if_ie_9.css" rel="stylesheet" type="text/css"><![endif]-->
+        <!--[if IE]><script type="text/javascript" src="shadow.js"></script><![endif]-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/customInput.jquery.js"></script>
+		<link rel="stylesheet" href="styles/iview.css" type="text/css" media="screen" />
+		<script src="js/raphael-min.js" type="text/javascript"></script>
+		<script src="js/jquery.easing.js" type="text/javascript"></script>
+		<script src="js/iview.pack.js" type="text/javascript"></script>
+
+        <link href="js/selectbox/jquery.selectbox.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="js/selectbox/jquery.selectbox-0.2.min.js"></script>
+	</head>
+	<body>
+    	<div class="tape"></div>
+        
+    	<div class="header header-inner">
+            <div class="header_box">
+            	<div class="header_box_wrap">
+            		<div class="logo">
+                    	<a href="/">
+                        	<div class="logo_text_1"><span>Противомикробное</span> средство</div> 
+                            <div class="logo_text_2">Энтерофурил</div>
+                        </a>
+                    </div>
+
+                    <div class="logo_brand">
+                    	<a href="#"><img src="images/logo_brand.png" width="147" height="37" /></a>
+                    </div>
+
+                    <div class="search">
+                    	<form action="#" method="post" name="">
+                                <input class="search_text" type="text" value="Поиск" onfocus="if (this.value == 'Поиск') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Поиск';}" name=""   />
+                                <input class="search_submit" name="" type="submit" value=" " />
+						</form>	
+                    </div>
+
+                    <div class="like">
+                    	<a href="#"><img src="images/like.jpg" width="137" height="22" /></a>
+                    </div>
+
+                    <div class="menu_top">
+                    	<ul>
+                            <li class="active"><a href="#">О препарате</a></li>
+                            <li><a href="#">Полезная информация</a></li>
+                            <li><a href="#">Консультация врача</a></li>
+                            <li><a href="#">Где купить?</a></li>
+                            <li><a href="#">Специалистам</a></li>
+                            <li><a href="#">О компании</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="breadcrumbs">
+                        <a href="">Главная</a> <img src="images/bc.png" alt=""> Где купить?
+                    </div>
+        		</div>
+        	</div>
+        </div>
+
+        <!-- page -->
+        <div class="page">
+            <!-- aside -->
+            <div class="leftside">
+                <div class="leftside-compare">
+                    <h4>Сравнение цен</h4>
+
+                    <ul>
+                        <li><a href="" title="">AptekaMos.ru</a></li>
+                        <li><a href="" title="">Поиск Лекарств.ру</a></li>
+                        <li><a href="" title="">MedLux.ru</a></li>
+                        <li><a href="" title="">Аптекарск.ру</a></li>
+                    </ul>
+                </div>
+
+                <div class="leftside-search">
+                    <h4>Поиск аптеки</h4>
+
+                    <form action="">
+                        <div class="box">
+                            <label for="">Выберите область/край:</label>
+                            <select name="country_id" id="country_id" class="selectbox" tabindex="1">
+                                <option value="">---</option>
+                                <option value="4">Москва</option>
+                                <option value="10">Санкт-Петербурге</option>
+                        </select>
+                        </div>
+
+                        <div class="box">
+                            <label for="">Выберите город:</label>
+                            <select name="country_id" id="country_id" class="selectbox" tabindex="1">
+                                <option value="">---</option>
+                                <option value="4">Москва</option>
+                                <option value="10">Санкт-Петербурге</option>
+                            </select>
+                        </div>
+                        
+                        <div class="box">
+                            <label for="">Выберите метро:</label>
+                            <select name="country_id" id="country_id" class="selectbox" tabindex="1">
+                                <option value="">---</option>
+                                <option value="4">Москва</option>
+                                <option value="10">Санкт-Петербурге</option>
+                            </select>
+                        </div>
+
+                        <div class="box">
+                            <input type="submit" id="" value="" class="find" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="content">
+                <h1>Где купить?</h1>
+
+                <p><img src="images/tmp/map.jpg" alt=""></p>
+
+                <p class="alert">Внимание! Уточняйте наличие препарата в аптеке по телефону.</p>
+
+                <div class="spacer"></div>
+
+                <h2>Аптеки</h2>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <p class="address"><strong>Mедицинский центр «Шиба»</strong><br />
+                Пресненская набережная,дом 8, строение 1, комплекс «Город столиц»,8-9 этаж, ЗАО «Сандоз»<br />
+                <strong>тел.: (495) 660-75-09</strong><br />
+                <a href="">www.sandoz.ru</a></p>
+
+                <!-- paginator -->
+                <div class="paginator">
+                    <div class="pagicontainer">
+                        <ul>
+                            <li><a href="#"><img src="images/left.png" alt=""></a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li class="active"><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">8</a></li>
+                            <li><a href="#">9</a></li>
+                            <li><a href="#"><img src="images/right.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer_box">
+                <div class="footer_box_wrap">
+                	<div class="footer_box_wrap_menu">
+                		<ul>
+                            <li class="active"><a href="#">Главная</a></li>
+                            <li><a href="#">О препарате</a></li>
+                            <li><a href="#">Полезная информация </a></li>
+                            <li><a href="#">Консультация врача </a></li>
+                            <li><a href="#">Специалистам</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Карта сайта</a></li>
+                            <li><a href="#">Где купить?</a></li>
+                        </ul>
+                	</div>
+                    <div class="footer_box_wrap_info">
+                    	<strong>© 2013, Босналек, <a href="#">www.bosnalijek.ru</a>, <a href="#">nfo@bosnalijek.ru</a></strong> |  <a href="#">Юридическая информация</a> |  <a href="#">Политика конфиденциальности</a><br />
+                        <strong>Адрес:</strong> 117292, Москва, ул. Дмитрия Ульянова, д. 16, корп. 2, офис 321. <strong>Телефон:</strong> +7 (095)<noskype></noskype> 771-76-32. <strong>Факс:</strong> +7 (095)<noskype></noskype> 124-28-95<br />
+                        <span>Имеются противопоказания. Необходимо проконсультироваться со специалистом.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+    <script src="js/call.js" type="text/javascript"></script>
+</html>
